@@ -69,8 +69,28 @@ Key Analysis Areas
 
 ## Project Structure
 
-* README.md - Project documentation and overview.
-* my project_Golden_Gabula.sql - SQL queries and business analysis.
+retail-sales-sql-analysis/
+│
+├── README.md
+│
+├── my project_Golden_Gabula.sql
+│
+└── Screenshots/
+    ├── README.md
+    ├── 01_overall_business_performance.png
+    ├── 03_monthly_sales_performance.png
+    ├── 04_supplier_return_performance.png
+    ├── 05_supplier_financial_impact.png
+    ├── 06_store_performance.png
+    ├── 08_product_division_performance.png
+    ├── 10_product_segment_profitability.png
+    ├── 20_top_10_returned_products.png
+    └── 34_quarterly_return_rate_analysis.png
+    
+The Screenshots folder contains selected SQL query results
+demonstrating the project's key business analysis and findings.
+    
+  
 
 ## Business Value
 
