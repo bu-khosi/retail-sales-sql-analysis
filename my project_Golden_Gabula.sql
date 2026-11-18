@@ -608,7 +608,7 @@ SELECT
         '%Y-%m'
     ) AS Sales_Month,
 
-    COUNT(*) AS Total_Transactions,
+    SUM(`Number of Transactions`) AS Actual_Transactions,
 
     ROUND(SUM(`Sales Amount`), 2)
         AS Monthly_Revenue,
