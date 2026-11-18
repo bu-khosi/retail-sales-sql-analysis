@@ -51,7 +51,7 @@ KPI	Result
 | Gross Profit Margin | 44.23% |
 | Return Rate | 5.74% |
 | Product Categories | 27 |
-| Gross Profit Margin |  44.23%  |
+
 
 Key Analysis Areas
 
