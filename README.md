@@ -49,7 +49,7 @@ KPI	Result
 | Total Revenue | 11,215,681.26 |
 | Gross Profit | 4,960,154.44 |
 | Gross Profit Margin | 44.23% |
-| Return Rate | 5.96% |
+| Return Rate | 5.74% |
 | Product Categories | 27 |
 
 Key Analysis Areas
