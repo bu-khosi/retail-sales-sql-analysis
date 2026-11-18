@@ -941,14 +941,14 @@ FROM retail_transactions;
 
 SELECT
 
-    COUNT(*) AS Total_Transactions,
+    SUM(`Number of Transactions`) AS Actual_Transactions,
 
     ROUND(
         SUM(`Sales Amount`), 2
     ) AS Total_Revenue,
 
     ROUND(
-        SUM(`Sales Amount`) / COUNT(*), 2
+        SUM(`Sales Amount`) / NULLIF(SUM(`Number of Transactions`), 0), 2
     ) AS Average_Transaction_Value
 
 FROM retail_transactions
