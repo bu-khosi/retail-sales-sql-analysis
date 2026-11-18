@@ -248,7 +248,7 @@ ORDER BY Total_Sales DESC;
 
 SELECT
     `Store`,
-    COUNT(*) AS Total_Transactions,
+    COUNT(*) AS Total_Records,
     ROUND(SUM(`Qty Sold`), 2) AS Total_Quantity,
     ROUND(SUM(`Sales Amount`), 2) AS Total_Sales,
     ROUND(SUM(`Sales Amount` - `Cogs`), 2) AS Gross_Profit
@@ -262,7 +262,7 @@ DESCRIBE retail_transactions;
 
 SELECT
     `Sales Channel`,
-    COUNT(*) AS Total_Transactions,
+    COUNT(*) AS Total_Records,
     ROUND(SUM(`Qty Sold`), 0) AS Total_Quantity,
     ROUND(SUM(`Sales Amount`), 2) AS Total_Sales,
     ROUND(SUM(`Sales Amount` - `Cogs`), 2) AS Gross_Profit
