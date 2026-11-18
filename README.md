@@ -74,4 +74,4 @@ The analysis provides insights into revenue generation, profitability, product p
 
 Golden Gabula
 
-Junior Data Analyst | SQL | Python | Power BI | Data Analytics
+Junior Data Analyst | SQL | MySQL | Data Analytics 
