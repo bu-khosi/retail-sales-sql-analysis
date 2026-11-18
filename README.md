@@ -53,15 +53,6 @@ KPI	Result
 | Product Categories | 27 |
 
 
-| KPI | Result |
-|---|---:|
-| Total Revenue | R11,215,681.26 |
-| Total Cost | R6,255,526.82 |
-| Gross Profit | R4,960,154.44 |
-| Gross Profit Margin | 44.23% |
-
-
-
 Key Analysis Areas
 
 1. Sales performance by store and assessment of available sales-channel data.
