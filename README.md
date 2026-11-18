@@ -40,27 +40,31 @@ SQL Skills Demonstrated
 Key Business Findings
 
 KPI	Result
-Total Records	125,751
-Successful Transactions	118,260
-Returned Transactions	7,491
-Total Revenue	11,215,681.26
-Gross Profit	4,960,154.44
-Gross Profit Margin	44.23%
-Return Rate	5.96%
-Product Categories	27
+
+| Key Performance Indicator | Result |
+|---|---:|
+| Total Records | 125,751 |
+| Successful Records | 118,260 |
+| Returned Records | 7,491 |
+| Total Revenue | 11,215,681.26 |
+| Gross Profit | 4,960,154.44 |
+| Gross Profit Margin | 44.23% |
+| Return Rate | 5.96% |
+| Product Categories | 27 |
 
 Key Analysis Areas
 
-1. Sales performance by store and sales channel.
+1. Sales performance by store and assessment of available sales-channel data.
 2. Product category revenue contribution.
 3. Product profitability and ranking.
 4. Supplier return performance.
 5. Monthly revenue trends and cumulative revenue.
 6. Product return value and return rates.
 
-Project Structure
+## Project Structure
 
-* my_project_Golden_Gabula.sql – SQL queries and business analysis.
+* README.md - Project documentation and overview.
+* my project_Golden_Gabula.sql - SQL queries and business analysis.
 
 Business Value
 
