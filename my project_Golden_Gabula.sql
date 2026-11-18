@@ -1,61 +1,36 @@
+-- =====================================================
+-- PROJECT 03: RETAIL SALES DATA ANALYSIS
+-- Author: Golden Gabula
+-- Database: retail_sales
+-- Tool: MySQL Workbench
+-- =====================================================
+
+-- 1. Database setup
 SHOW DATABASES;
-USE retail_sales;
-select database();
 
-SELECT COUNT(*) 
+USE retail_sales;
+
+SELECT DATABASE();
+
+-- 2. Table structure
+DESCRIBE retail_transactions;
+
+-- 3. Total dataset records
+SELECT
+    COUNT(*) AS Total_Records
 FROM retail_transactions;
 
-SELECT COUNT(*) AS Total_Records
-FROM retail_transactions;
-SHOW TABLE STATUS WHERE NAME = 'retail_transactions';
-describe retail_transactions;
-
-SELECT Transaction Date
-FROM retail_transactions;
-
-describe retail_transactions;
-
-select * from retail_transactions LIMIT 10;
-
-select 1;
-
-SELECT Transaction Date
-FROM retail_transactions
-LIMIT 5;
-
-USE retail_sales;
-
-SELECT Transaction Date
-FROM retail_transactions
-LIMIT 5;
-
-USE retail_sales;
-
-
-SELECT Transaction_Date
-FROM retail_transactions
-LIMIT 5;
-
-describe retail_transactions;
-
-USE retail_sales;
-
-SELECT 'Transaction Date'
-FROM retail_transactions
-LIMIT 5;
-
-USE retail_sales;
-
+-- 4. Preview sample records
 SELECT *
 FROM retail_transactions
 LIMIT 10;
 
-SELECT COUNT(*) AS Total_Records
-FROM retail_transactions;
+
+
 
 SELECT
     COUNT(*) - COUNT(`Transaction Date`) AS Missing_Dates,
-    COUNT(*) - COUNT(`Sales Type`) AS Missing_Sales_Type,
+    COUNT(*) - COUNT(`Sales Channel`) AS Missing_Sales_Channel,
     COUNT(*) - COUNT(`Is Return`) AS Missing_Return_Status,
     COUNT(*) - COUNT(`Supplier`) AS Missing_Supplier,
     COUNT(*) - COUNT(`Product No`) AS Missing_Product_No,
@@ -64,7 +39,7 @@ FROM retail_transactions;
 
 SELECT
     SUM(CASE WHEN TRIM(`Transaction Date`) = '' THEN 1 ELSE 0 END) AS Blank_Dates,
-    SUM(CASE WHEN TRIM(`Sales Type`) = '' THEN 1 ELSE 0 END) AS Blank_Sales_Type,
+    SUM(CASE WHEN TRIM(`Sales Channel`) = '' THEN 1 ELSE 0 END) AS Blank_Sales_Channel,
     SUM(CASE WHEN TRIM(`Supplier`) = '' THEN 1 ELSE 0 END) AS Blank_Supplier,
     SUM(CASE WHEN TRIM(`Product No`) = '' THEN 1 ELSE 0 END) AS Blank_Product_No,
     SUM(CASE WHEN TRIM(`Product Description`) = '' THEN 1 ELSE 0 END) AS Blank_Descriptions
