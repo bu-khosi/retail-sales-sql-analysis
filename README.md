@@ -14,7 +14,7 @@ Business Objectives
 * Investigate product return patterns.
 * Measure monthly revenue and growth.
 * Analyse supplier performance.
-* * Assess available sales-channel data and identify limitations in channel-level comparisons.
+* Assess available sales-channel data and identify limitations in channel-level comparisons.
 
 Technologies Used
 
