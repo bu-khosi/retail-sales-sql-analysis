@@ -531,7 +531,7 @@ LIMIT 10;
 SELECT
     `Supplier`,
 
-    COUNT(*) AS Total_Transactions,
+    COUNT(*) AS Total_Records,
 
     SUM(
         CASE
