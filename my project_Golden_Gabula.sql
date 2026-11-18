@@ -203,7 +203,7 @@ WHERE `Is Return` = 0;
 
 SELECT
     `Sales Channel`,
-    COUNT(*) AS Total_Transactions,
+    COUNT(*) AS Total_Records,
     ROUND(SUM(`Sales Amount`), 2) AS Total_Sales,
     ROUND(SUM(`Sales Amount` - `Cogs`), 2) AS Gross_Profit
 FROM retail_transactions
@@ -214,7 +214,7 @@ ORDER BY Total_Sales DESC;
 SELECT
     `Sales Channel`,
     `Is Return`,
-    COUNT(*) AS Total_Transactions,
+    COUNT(*) AS Total_Records,
     ROUND(SUM(`Sales Amount`), 2) AS Total_Sales
 FROM retail_transactions
 GROUP BY
