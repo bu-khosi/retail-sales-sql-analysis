@@ -1106,6 +1106,37 @@ FROM Category_Sales;
 
 
 
+USE retail_sales;
+
+-- FINAL FINANCIAL KPI ANALYSIS
+
+SELECT
+    SUM(`Sales Amount`) AS Total_Revenue,
+    SUM(`Cogs`) AS Total_Cost,
+    SUM(`Sales Amount` - `Cogs`) AS Gross_Profit
+FROM retail_transactions
+WHERE `Is Return` = 0;
+
+
+-- GROSS PROFIT MARGIN ANALYSIS
+
+SELECT
+    ROUND(
+        SUM(`Sales Amount` -` Cogs`)
+        / NULLIF(SUM(`Sales Amount`), 0) * 100,
+        2
+    ) AS Gross_Profit_Margin
+FROM retail_transactions
+WHERE `Is Return` = 0;
+
+
+
+
+
+
+
+
+
 
     
     
