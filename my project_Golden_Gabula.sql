@@ -226,7 +226,7 @@ ORDER BY
     
     SELECT
     `Product Division`,
-    COUNT(*) AS Total_Transactions,
+    COUNT(*) AS Total_Records,
     ROUND(SUM(`Qty Sold`), 2) AS Total_Quantity,
     ROUND(SUM(`Sales Amount`), 2) AS Total_Sales,
     ROUND(SUM(`Sales Amount` - `Cogs`), 2) AS Gross_Profit
