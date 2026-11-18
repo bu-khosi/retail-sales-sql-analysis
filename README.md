@@ -66,11 +66,11 @@ Key Analysis Areas
 * README.md - Project documentation and overview.
 * my project_Golden_Gabula.sql - SQL queries and business analysis.
 
-##Business Value
+## Business Value
 
 The analysis provides insights into revenue generation, profitability, product performance, and customer returns. These findings can help retail management identify opportunities to improve operational efficiency and business performance.
 
-##Author
+## Author
 
 Golden Gabula
 
