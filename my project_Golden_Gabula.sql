@@ -368,7 +368,7 @@ ORDER BY Return_Value DESC;
 SELECT
     `Product Category`,
 
-    COUNT(*) AS Total_Transactions,
+    COUNT(*) AS Total_Records,
 
     SUM(CASE
         WHEN `Is Return` = 1 THEN 1
