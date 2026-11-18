@@ -561,37 +561,7 @@ ORDER BY Return_Value DESC
 LIMIT 10;
 
 
-SELECT
-    `Supplier`,
 
-    COUNT(*) AS Total_Transactions,
-
-    SUM(
-        CASE
-            WHEN `Is Return` = 1 THEN 1
-            ELSE 0
-        END
-    ) AS Total_Returns,
-
-    ROUND(
-        SUM(
-            CASE
-                WHEN `Is Return` = 1
-                THEN ABS(`Sales Amount`)
-                ELSE 0
-            END
-        ), 2
-    ) AS Return_Value
-
-FROM retail_transactions
-
-GROUP BY `Supplier`
-
-HAVING COUNT(*) >= 500
-
-ORDER BY Return_Value DESC
-
-LIMIT 10;
 
 SELECT
     `Transaction Date`,
