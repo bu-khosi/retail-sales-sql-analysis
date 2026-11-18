@@ -53,6 +53,8 @@ KPI	Result
 | Product Categories | 27 |
 
 
+
+
 Key Analysis Areas
 
 1. Sales performance by store and assessment of available sales-channel data.
