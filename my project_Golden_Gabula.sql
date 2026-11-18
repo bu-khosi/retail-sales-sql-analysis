@@ -50,7 +50,7 @@ SELECT *
 FROM retail_transactions
 LIMIT 10;
 
-SELECT COUNT(*) AS Total_Transactions
+SELECT COUNT(*) AS Total_Records
 FROM retail_transactions;
 
 SELECT
