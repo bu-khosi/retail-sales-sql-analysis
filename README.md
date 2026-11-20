@@ -101,3 +101,9 @@ The analysis provides insights into revenue generation, profitability, product p
 Golden Gabula
 
 Junior Data Analyst | SQL | MySQL | Data Analytics 
+
+GitHub: https://github.com/bu-khosi
+
+LinkedIn: https://www.linkedin.com/in/golden-gabula-610a21266
+
+
